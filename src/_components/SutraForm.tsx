@@ -119,10 +119,10 @@ export default function TypeformStyleForm() {
             <h2 className="text-xl md:text-2xl font-semibold mb-4">Modest doesn't mean missing out. Sign Up to Stay in the Loop</h2>
             <p className="mb-4 text-lg">Sutra, we bring you pieces that speak your style and your values. We’re building this from the ground up, and your input helps us shape a brand that truly understands your taste, values, and lifestyle.</p>
             <ul className="list-none mb-4 space-y-1">
-              <li>✔ Early access to our launch</li>
-              <li>✔ Special launch-day discounts</li>
-              <li>✔ Behind-the-scenes sneak peeks</li>
-              <li>✔ Styling tips for effortless modest looks</li>
+              <li>✓ Early access to our launch</li>
+              <li>✓ Special launch-day discounts</li>
+              <li>✓ Behind-the-scenes sneak peeks</li>
+              <li>✓ Styling tips for effortless modest looks</li>
             </ul>
             <p className="mb-6">Don’t worry, we won’t spam you with ads.</p>
             <button onClick={next} className="bg-white text-[#540C0C] font-bold px-6 py-2 rounded-md">Continue</button>
