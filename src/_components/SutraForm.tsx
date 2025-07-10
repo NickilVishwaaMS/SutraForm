@@ -75,14 +75,11 @@ export default function TypeformStyleForm() {
     question: q.question,
     answer: answers[i],
   }));
-  console.log(formattedData)
 
   setError('');
   setSubmitted(true);
   try{
-    const docRef = await addDoc(collection(db,'FormResult'),{responses:formattedData, timestamp:new Date()})
-    console.log('document written with id',docRef.id)
-    alert('dated written successfully')
+    await addDoc(collection(db,'FormResult'),{responses:formattedData, timestamp:new Date()})
 }
   catch(e){
     console.error(e)
