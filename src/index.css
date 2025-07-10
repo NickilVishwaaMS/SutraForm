@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "AfacadFlux";
+    src: local("AfacadFlux-Regular"),
+    url("./assets/fonts/AfacadFlux-Regular.ttf") format("truetype");
+}
